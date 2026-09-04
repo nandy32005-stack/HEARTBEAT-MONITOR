@@ -1,0 +1,37 @@
+# Test Directory
+
+This directory is reserved for testing and validation of the Heartbeat Monitor & Alert Embedded System.
+
+## Purpose
+
+The test directory can be used to store:
+
+- Embedded firmware test cases
+- Sensor validation tests
+- BPM threshold tests
+- Alert-condition tests
+- Simulation test files
+- Automated PlatformIO tests
+
+## Test Conditions
+
+The main alert conditions tested in this project are:
+
+| BPM | Condition | Expected Result |
+|---:|---|---|
+| 50 | LOW | Red LED + Buzzer |
+| 80 | NORMAL | Green LED + Buzzer OFF |
+| 120 | HIGH | Red LED + Buzzer |
+
+## Testing Approach
+
+Testing can be performed using:
+
+1. ESP32 hardware with the MAX30102 sensor.
+2. Python-based BPM simulation.
+3. Graphical heartbeat monitoring simulator.
+4. Wokwi circuit simulation.
+
+## Note
+
+This project is intended for educational and embedded-systems demonstration purposes. The test thresholds are demonstration values and are not medical diagnostic limits.

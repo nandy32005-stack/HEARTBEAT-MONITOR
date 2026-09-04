@@ -1,0 +1,27 @@
+# PlatformIO
+.pio/
+.piolibdeps/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Wokwi generated firmware
+simulation-firmware.bin
+simulation-firmware.elf
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python logs
+*.log
